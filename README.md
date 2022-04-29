@@ -12,7 +12,7 @@ composer require toastnz/favicon
 
 ## Usage
 
-Upload your Favicon under Settings in the CMS and add $FaviconMetaTags to the template, within the <head> tag:
+Upload your Favicon under Settings in the CMS and add the variable $FaviconMetaTags to the template, within the &lt;head&gt; tag:
 
 ```html
 <head>
