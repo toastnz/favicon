@@ -1,0 +1,12 @@
+---
+Name: silverstripe-favicon
+---
+
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - Toast\Favicon\SiteConfigExtension
+
+SilverStripe\CMS\Controllers\ContentController:
+  extensions:
+    - Toast\Favicon\ContentControllerExtension
+
